@@ -1,0 +1,25 @@
+.App{
+  display: flex;
+  justify-content: center;
+  margin-top: 33vh;
+}
+.drum-pads{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.drum-pad{
+  border: 2px solid black;
+  width: 100px;
+  font-weight: bolder;
+  color: rgb(150, 250, 150);
+  font-size: 50px;
+  background-image: linear-gradient(to right,rgb(255,0,0,0.6), rgb(245,5,21,0.7));
+  height: 100px;
+  margin-top: 5px;
+  border-radius: 15px;
+  border-width: 5px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
